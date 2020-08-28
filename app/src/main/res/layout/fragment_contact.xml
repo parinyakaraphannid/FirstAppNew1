@@ -6,7 +6,7 @@
 
         <variable
             name="contactViewModel"
-            type="chimjan.xkalux.mobilehomework_firstapp.ContactViewModel" />
+            type="com.example.firstappnew1.ContactViewModel" />
     </data>
 
     <FrameLayout

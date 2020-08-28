@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import android.app.Application
 import android.content.res.Resources
@@ -9,9 +9,9 @@ import androidx.core.text.HtmlCompat
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import chimjan.xkalux.mobilehomework_firstapp.database.Contact
-import chimjan.xkalux.mobilehomework_firstapp.database.DatabaseDAO
-import chimjan.xkalux.mobilehomework_firstapp.databinding.FragmentContactBinding
+import com.example.firstappnew1.database.Contact
+import com.example.firstappnew1.database.DatabaseDAO
+import com.example.firstappnew1.databinding.FragmentContactBinding
 import kotlinx.coroutines.*
 import java.lang.StringBuilder
 

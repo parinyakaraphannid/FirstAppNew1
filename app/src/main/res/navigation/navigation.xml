@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/aboutmeFragment"
-        android:name="chimjan.xkalux.mobilehomework_firstapp.AboutmeFragment"
+        android:name="com.example.firstappnew1.AboutmeFragment"
         android:label="aboutme"
         tools:layout="@layout/fragment_aboutme" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/contactFragment"
-        android:name="chimjan.xkalux.mobilehomework_firstapp.ContactFragment"
+        android:name="com.example.firstappnew1.ContactFragment"
         android:label="contact"
         tools:layout="@layout/fragment_contact" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/jopFragment"
-        android:name="chimjan.xkalux.mobilehomework_firstapp.JopFragment"
+        android:name="com.example.firstappnew1.JopFragment"
         android:label="fragment_jop"
         tools:layout="@layout/fragment_jop" >
         <action

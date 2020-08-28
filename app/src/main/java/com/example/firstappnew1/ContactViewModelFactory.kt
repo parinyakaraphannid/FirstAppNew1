@@ -1,10 +1,10 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import chimjan.xkalux.mobilehomework_firstapp.database.DatabaseDAO
-import chimjan.xkalux.mobilehomework_firstapp.databinding.FragmentContactBinding
+import com.example.firstappnew1.database.DatabaseDAO
+import com.example.firstappnew1.databinding.FragmentContactBinding
 
 class ContactViewModelFactory (
     private val dataSource: DatabaseDAO,

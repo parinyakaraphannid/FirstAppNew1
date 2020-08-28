@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

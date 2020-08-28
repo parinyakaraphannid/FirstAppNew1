@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import android.os.Bundle
 import android.view.*
@@ -8,8 +8,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import chimjan.xkalux.mobilehomework_firstapp.database.Database
-import chimjan.xkalux.mobilehomework_firstapp.databinding.FragmentContactBinding
+import com.example.firstappnew1.database.Database
+import com.example.firstappnew1.databinding.FragmentContactBinding
 
 
 class ContactFragment : Fragment() {

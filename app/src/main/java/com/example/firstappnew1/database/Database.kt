@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp.database
+package com.example.firstappnew1.database
 
 import android.content.Context
 import androidx.room.Database
@@ -12,14 +12,14 @@ abstract class Database : RoomDatabase(){
 
     companion object{
         @Volatile
-        private var INSTANCE: chimjan.xkalux.mobilehomework_firstapp.database.Database? = null
-        fun getInstance(context: Context): chimjan.xkalux.mobilehomework_firstapp.database.Database {
+        private var INSTANCE: com.example.firstappnew1.database.Database? = null
+        fun getInstance(context: Context): com.example.firstappnew1.database.Database {
             synchronized(this) {
                 var instance = INSTANCE
                 if (instance == null) {
                     instance = Room.databaseBuilder(
                         context.applicationContext,
-                        chimjan.xkalux.mobilehomework_firstapp.database.Database::class.java,
+                        com.example.firstappnew1.database.Database::class.java,
                         "database"
                     )
                         .fallbackToDestructiveMigration()

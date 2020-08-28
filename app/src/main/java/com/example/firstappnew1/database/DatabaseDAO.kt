@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp.database
+package com.example.firstappnew1.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

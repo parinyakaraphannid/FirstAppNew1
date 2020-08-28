@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import android.os.Bundle
 import android.view.*
@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import chimjan.xkalux.mobilehomework_firstapp.databinding.ActivityMainBinding
-import chimjan.xkalux.mobilehomework_firstapp.databinding.FragmentAboutmeBinding
+import com.example.firstappnew1.databinding.ActivityMainBinding
+import com.example.firstappnew1.databinding.FragmentAboutmeBinding
 
 
 class AboutmeFragment : Fragment() {

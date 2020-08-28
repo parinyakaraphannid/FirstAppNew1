@@ -1,4 +1,4 @@
-package chimjan.xkalux.mobilehomework_firstapp
+package com.example.firstappnew1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import chimjan.xkalux.mobilehomework_firstapp.databinding.ActivityMainBinding
+import com.example.firstappnew1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
